@@ -1,6 +1,7 @@
 const table = document.getElementById("table");
 const error = document.getElementById("error");
 
+// map for displaying properties in UI. a.k.a table headings.
 const map = new Map([
   ["id", "id"],
   ["year", "year"],
